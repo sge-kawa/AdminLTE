@@ -1,0 +1,19 @@
+// Top priority variables.
+
+$rate:                        1.6;                   // rem rate.
+$font-size-base-html:         100% / $rate !default; // html font-size. @see _layout.scss
+$font-size-base:              1rem * $rate !default;
+$font-size-root:              1rem * $rate !default;
+
+$input-btn-padding-y-sm:      .25rem * $rate !default;
+
+// Navbar
+$navbar-nav-link-padding-x: 1rem * $rate !default;
+$nav-link-padding-x: 1rem * $rate !default;
+
+// Card
+$card-title-font-size: 1.1rem * $rate !default;
+$card-title-font-size-sm: 1rem * $rate !default;
+
+// Toast
+$toast-font-size: 1rem * $rate;                 // default 0.875rem

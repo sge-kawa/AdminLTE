@@ -6,6 +6,10 @@ html.scroll-smooth {
   scroll-behavior: smooth;
 }
 
+html {
+  font-size: $font-size-base-html;
+}
+
 html,
 body,
 .wrapper {
