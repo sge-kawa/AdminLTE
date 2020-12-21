@@ -1,19 +1,106 @@
 // Top priority variables.
 
 $rate:                        1.6;                   // rem rate.
+
 $font-size-base-html:         100% / $rate !default; // html font-size. @see _layout.scss
 $font-size-base:              1rem * $rate !default;
 $font-size-root:              1rem * $rate !default;
 
+// Paragraphs
+$paragraph-margin-bottom:   1rem * $rate !default;
+
+$display1-size:               6rem * $rate !default;
+$display2-size:               5.5rem * $rate !default;
+$display3-size:               4.5rem * $rate !default;
+$display4-size:               3.5rem * $rate !default;
+
+// Tables
+$table-cell-padding:          .75rem * $rate !default;
+$table-cell-padding-sm:       .3rem * $rate !default;
+
+// Buttons + Forms
+$input-btn-padding-y:         .375rem * $rate !default;
+$input-btn-padding-x:         .75rem * $rate !default;
+$input-btn-focus-width:       .2rem * $rate !default;
 $input-btn-padding-y-sm:      .25rem * $rate !default;
+$input-btn-padding-x-sm:      .5rem * $rate !default;
+$input-btn-padding-y-lg:      .5rem * $rate !default;
+$input-btn-padding-x-lg:      1rem * $rate !default;
+
+// Buttons
+$btn-block-spacing-y:         .5rem * $rate !default;
+
+// Forms
+$form-text-margin-top:                  .25rem * $rate !default;
+$form-check-input-gutter:               1.25rem * $rate !default;
+$form-check-input-margin-y:             .3rem * $rate !default;
+$form-check-input-margin-x:             .25rem * $rate !default;
+$form-check-inline-margin-x:            .75rem * $rate !default;
+$form-check-inline-input-margin-x:      .3125rem * $rate !default;
+$form-group-margin-bottom:              1rem * $rate !default;
+
+$custom-control-gutter:                 .5rem * $rate !default;
+$custom-control-spacer-x:               1rem * $rate !default;
+$custom-control-indicator-size:         1rem * $rate !default;
+$custom-select-padding-y:           .375rem * $rate !default;
+$custom-select-padding-x:          .75rem * $rate !default;
+$custom-select-indicator-padding:   1rem * $rate !default; // Extra padding to account for the presence of the background-image based indicator
+
+// Dropdowns
+$dropdown-min-width:                10rem * $rate !default;
+$dropdown-padding-y:                .5rem * $rate !default;
+$dropdown-spacer:                   .125rem * $rate !default;
+$dropdown-item-padding-y:           .25rem * $rate !default;
+$dropdown-item-padding-x:           1rem * $rate !default;
+
+// Navs
+$nav-link-padding-x:          1rem * $rate !default;
+$nav-link-padding-y:          .5rem * $rate !default;
+$nav-link-padding-x:          1rem * $rate !default;
 
 // Navbar
-$navbar-nav-link-padding-x: 1rem * $rate !default;
-$nav-link-padding-x: 1rem * $rate !default;
+$navbar-nav-link-padding-x:         1rem * $rate !default;
+$navbar-toggler-padding-y:          .25rem * $rate !default;
+$navbar-toggler-padding-x:          .75rem * $rate !default;
+
+// Pagination
+$pagination-padding-y:              .5rem * $rate !default;
+$pagination-padding-x:              .75rem * $rate !default;
+$pagination-padding-y-sm:           .25rem * $rate !default;
+$pagination-padding-x-sm:           .5rem * $rate !default;
+$pagination-padding-y-lg:           .75rem * $rate !default;
+$pagination-padding-x-lg:           1.5rem * $rate !default;
+$pagination-line-height:            1.25 * $rate !default;
 
 // Card
-$card-title-font-size: 1.1rem * $rate !default;
-$card-title-font-size-sm: 1rem * $rate !default;
+$card-spacer-y:                     .75rem * $rate !default;
+$card-spacer-x:                     1.25rem * $rate !default;
+$card-img-overlay-padding:          1.25rem * $rate !default;
+$card-columns-gap:                  1.25rem * $rate !default;
+$card-title-font-size:        1.1rem * $rate !default;
+$card-title-font-size-sm:     1rem * $rate !default;
 
 // Toast
-$toast-font-size: 1rem * $rate;                 // default 0.875rem
+$toast-font-size:               1rem * $rate;                 // default 0.875rem
+$bootstrap-toast-padding-x:     .75rem * $rate !default;
+$bootstrap-toast-padding-y:     .25rem * $rate !default;
+$bootstrap-toast-border-radius: .25rem * $rate !default;
+
+// Tooltips
+$tooltip-padding-y:           .25rem * $rate !default;
+$tooltip-padding-x:           .5rem * $rate !default;
+$tooltip-arrow-width:         .8rem * $rate !default;
+$tooltip-arrow-height:        .4rem * $rate !default;
+
+
+// Alerts
+$alert-padding-y:             .75rem * $rate !default;
+$alert-padding-x:             1.25rem * $rate!default;
+$alert-margin-bottom:         1rem * $rate !default;
+
+// List group
+$list-group-item-padding-y:         .75rem * $rate !default;
+$list-group-item-padding-x:         1.25rem * $rate !default;
+
+// Image thumbnails
+$thumbnail-padding:                 .25rem * $rate !default;
